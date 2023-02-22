@@ -1,0 +1,41 @@
+{
+  "name": "@1874w/tmper",
+  "version": "0.0.1",
+  "description": "快速创建Node端/Web端模版",
+  "keywords": [
+    "template",
+    "node-template",
+    "web-template"
+  ],
+  "author": "1874 <me@mail.1874.cool>",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetTTGACO/tmpe.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/LetTTGACO/tmpe/issues"
+  },
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "father": "^4.1.5",
+    "prettier": "^2.7.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.11.0"
+  }
+}
